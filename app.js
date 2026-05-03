@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('CI/CD Pipeline Running Successfully');
+   res.send('Feature branch working ');
 });
 
 const PORT = 3000;
